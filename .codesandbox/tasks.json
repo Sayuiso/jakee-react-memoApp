@@ -16,6 +16,7 @@
     },
     "build": {
       "name": "build",
+<<<<<<< HEAD
       "command": "yarn build"
     },
     "test": {
@@ -25,6 +26,20 @@
     "eject": {
       "name": "eject",
       "command": "yarn eject"
+=======
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test",
+      "runAtStart": false
+    },
+    "eject": {
+      "name": "eject",
+      "command": "yarn eject",
+      "runAtStart": false
+>>>>>>> 0fb7cfe64ae073a49a90a6a3901d492605076179
     }
   }
 }
